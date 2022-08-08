@@ -6,7 +6,7 @@ A simple TCP port scanner written in python.
 # Usage
 Use either:
 
-```scan.py```
+```python3 scan.py```
 
 Or:
 
