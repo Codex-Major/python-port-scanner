@@ -26,8 +26,6 @@ def main():
         for p in range(1025):
             t = threading.Thread(target=scan, args=[ip, p] )
             t.start()
-        return startTime
-
     except KeyboardInterrupt:
         print ("[!] You pressed Ctrl+C. Exiting!")
         sys.exit()
